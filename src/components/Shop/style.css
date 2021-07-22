@@ -2,6 +2,7 @@
 /* shop component css goes here */
 .mainBodyShop {
   width: 100%;
+  
   display: flex;
   flex-direction: column;
 }
@@ -51,8 +52,16 @@
   margin: 0px 10px;
 }
 .containerSegmentMain {
+  background:linear-gradient(#84dccf,gray) !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important;
   height: 80vh !important;
   border-radius: 0.6% !important;
   margin: 5px auto 0 auto !important;
   width: 99% !important;
+  overflow-y: auto !important;
+  width: fit-content !important;
+  overflow-x: hidden !important;
+  
 }

@@ -4,6 +4,7 @@ import NavCus from "./components/global/NavCus";
 import Home from "./components/Home";
 // import Menue from "./components/Menue";
 import Shop from "./components/Shop/Shop";
+import Card from './components/Shop/components/Card'
 function App() {
   const doughnuts = [
     { item_id: "1", name: "Chocolates Donuts", price: "Rs 40" },
@@ -17,12 +18,13 @@ function App() {
   ];
   return (
     <>
+    
       <NavCus />
-      <div className="mainBody">
+      <div className="mainBody"> 
         {/* <Home /> */}
         {/* <Menue data={doughnuts} /> */}
         <Shop />
-        <footer
+       <footer
           style={{
             position: "sticky",
             textAlign: "center",
@@ -34,6 +36,7 @@ function App() {
           Copyright 2021. All Rights Reserved.
         </footer>
       </div>
+      
     </>
   );
 }

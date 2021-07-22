@@ -7,6 +7,7 @@ import {
   Icon,
   Container,
 } from "semantic-ui-react";
+import Card from './components/Card'
 import "./style.css";
 import logo from "./logo";
 import khalti from "./images/khalti.png";
@@ -41,7 +42,14 @@ const Shop = (props) => {
             </p>
           </p>
         </div>
-        <Segment className="containerSegmentMain"></Segment>
+        <Segment className="containerSegmentMain">
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+        </Segment>
       </div>
     </>
   );

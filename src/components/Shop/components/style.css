@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+.card-box{
+    background:linear-gradient(#dca109,#a6d9f7);
+    color: black;
+    margin: 15px 23px;
+    padding: 15px 15px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    min-height: 325px;
+    min-width: 280px;
+    max-width: 280px;
+    max-height: 325px;
+    border:solid black 0px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+    
+}
+.card-box:hover{
+  overflow:hidden;
+    transform: scale(1.1);
+    
+}
+.card-box >p{
+    margin-bottom: 30px;
+}
+.card-box h2{
+    margin-bottom: -20px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    word-spacing: 4px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.card-box h3 {
+    font-family: 'Yomogi', cursive;
+    margin-bottom: -30px;
+    
+}
+.card-box > p>img{
+    float: right;
+}
+.plus-sign{
+    float: right !important;
+    color: rgb(0, 124, 41) !important;
+    
+}
+.plus-sign:hover{
+    color: rgb(0, 88, 29) !important;
+
+
+    cursor: pointer !important;
+}
